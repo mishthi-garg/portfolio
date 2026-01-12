@@ -1,0 +1,21 @@
+.profile-pic{
+  width: 200px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.heading{
+  font-weight: bold;
+  font-size: 20px;
+}
+.desc{
+  font-size: 16px;
+}
+.name{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.contact-info{
+  display: inline-block;
+  margin-left: 40px;
+}
