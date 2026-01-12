@@ -1,7 +1,7 @@
 .profile-pic{
   width: 200px;
   border-radius: 100px;
-  display: inline-block;
+  margin-top: 40px;
 }
 .heading{
   font-weight: bold;
@@ -16,7 +16,6 @@
   margin-bottom: 0;
 }
 .contact-info{
-  display: inline-block;
   margin-left: 40px;
 }
 .section{
@@ -27,6 +26,16 @@
 .skills img{
   height: 100px;
 }
-.skills > div{
-  display: inline-block;
+
+.personal-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.skill-logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
 }
