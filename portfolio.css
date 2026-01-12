@@ -19,3 +19,14 @@
   display: inline-block;
   margin-left: 40px;
 }
+.section{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.skills img{
+  height: 100px;
+}
+.skills > div{
+  display: inline-block;
+}
