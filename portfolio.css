@@ -1,27 +1,42 @@
 .profile-pic{
   width: 200px;
   border-radius: 100px;
-  margin-top: 40px;
+  border-width: 4px;
+  border-style: solid;
 }
 .heading{
   font-weight: bold;
   font-size: 20px;
 }
 .desc{
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 2;
+}
+.about-me{
+
 }
 .name{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 46px;
   margin-bottom: 0;
+  margin-top: 0;
 }
-.contact-info{
-  margin-left: 40px;
-}
+
 .section{
   font-weight: bold;
-  font-size: 32px;
-  margin-bottom: 0;
+  font-size: 36px;
+}
+.edu-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 30px;
+}
+.edu{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 30px;
 }
 .skills img{
   height: 100px;
@@ -30,12 +45,29 @@
 .personal-details{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
+  align-items: center;
+  column-gap: 30px;
+  margin-bottom: 60px;
 }
+.pfp-container{
+
+}
+.details-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(224, 191, 255);
+  padding: 30px;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
 .skill-logos{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
+  column-gap: 70px;
 }
