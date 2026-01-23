@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>
-    My Portfolio
-  </title>
-  <link rel="stylesheet" href="portfolio.css">
-  <link rel="stylesheet" href="general.css">
-</head>
-
-<body>
-  <div class="personal-details">
-    <div class="pfp-container">
-      <img src="profile-pic.jpeg" class="profile-pic">
-    </div>
-    <div class="details-container">
-      <div class="name-desc">
+function showDetails(){
+  const x = document.querySelector('.js-details-container');
+  if(x.innerHTML.trim() !== ''){
+    x.innerHTML = '';
+    x.classList.remove("js-details-container-show");
+    document.querySelector('.js-show-detail-btn').innerHTML = ' > ';
+    return;
+  }
+    x.innerHTML = `<div class="name-desc">
         <p class="name">
           MISHTHI GARG
         </p>
@@ -57,20 +48,24 @@
           </a>
         </div>
           
-      </div>
-    </div>
-  </div>
+      </div>`;
+    x.classList.add("js-details-container-show");  
+    document.querySelector('.js-show-detail-btn').innerHTML = ' < ';
+}
 
-  <div class="about-me">
-      <p class="section">
+function showContent(section){
+  x = document.querySelector('.js-content-area');
+  if(section === 'about'){
+    x.innerHTML = `<p class="section">
         ABOUT ME
       </p>
       <p class="desc">
         Second year Computer & Communication Engineering undergraduate with strong academic background and growing technical foundation in C, Java, HTML, CSS and JavaScript. Actively building skills in web development and problem solving with initial exposure to competitive programming. Experienced in student-led initiatives and event management through LNMIIT Alumni Association and GDG On Campus. Strong coordination, communication, and proactive learning mindset, seeking software development engineering internships.
-      </p>
-  </div>
-  <div class="edu-container">
-      <p class="section">
+      </p>`;
+
+  }
+  else if(section === 'education'){
+    x.innerHTML = `<p class="section">
         EDUCATION
       </p>
       <div class="edu">
@@ -96,11 +91,11 @@
             AUG 2024 - MAY 2028
           </p>
         </div>
-      </div>
-  </div>
+      </div>`;
 
-  <div class="skills">
-    <div>
+  }
+  else if(section === 'skills'){
+    x.innerHTML = `<div>
       <p class="section">
       SKILLS
       </p>
@@ -121,9 +116,6 @@
       <div class="javascript">
         <img src="skills/js-logo.png">
       </div>
-    </div>
-  </div>
-
-</body>
-
-</html>
+    </div>`;
+  }
+}
