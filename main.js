@@ -11,7 +11,7 @@ function showDetails(){
           MISHTHI GARG
         </p>
         <p class="desc">
-          Pursuing B.Tech in Computer Communication & Engineering at LNMIIT
+          B.Tech in Computer Communication & Engineering | LNMIIT
         </p>
       </div>
       <div class="contact-info">
@@ -60,7 +60,7 @@ function showContent(section){
         ABOUT ME
       </p>
       <p class="desc">
-        Second year Computer & Communication Engineering undergraduate with strong academic background and growing technical foundation in C, Java, HTML, CSS and JavaScript. Actively building skills in web development and problem solving with initial exposure to competitive programming. Experienced in student-led initiatives and event management through LNMIIT Alumni Association and GDG On Campus. Strong coordination, communication, and proactive learning mindset, seeking software development engineering internships.
+        Second-year Undergraduate at LNMIIT with a strong academic background and a growing technical foundation in software development. Experienced Teaching Assistant for Labs, proficient in Linux, Python, and Web Development. Proven leader through student-led initiatives at GDG and the LNMIIT Alumni Association, possessing a proactive learning mindset for SDE roles.
       </p>`;
 
   }
@@ -74,7 +74,10 @@ function showContent(section){
             DELHI PUBLIC SCHOOL GHAZIABAD
           </p>
           <p class="desc">
-            Ghaziabad
+            Class XII (CBSE): 94.4%
+          </p>
+          <p class="desc">
+            Class X (CBSE): 94% 
           </p>
           <p class="desc">
             APR 2010 - MAY 2024
@@ -82,10 +85,10 @@ function showContent(section){
         </div>
         <div>
           <p class="heading">
-            The LNM Institute of Information Technology
+            The LNM Institute of Information Technology (LNMIIT), Jaipur
           </p>
           <p class="desc">
-            B.Tech in Computer & Communication Engineering, Jaipur
+            B.Tech in Computer & Communication Engineering
           </p>
           <p class="desc">
             AUG 2024 - MAY 2028

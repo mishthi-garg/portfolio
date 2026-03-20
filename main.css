@@ -8,6 +8,16 @@
   
 }
 
+.header{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.header div:hover{
+  cursor: pointer;
+  border-bottom: 2px solid rgba(224, 191, 255);
+}
+
 .personal-details{
   display: flex;
   flex-direction: row;
@@ -61,8 +71,8 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: rgba(224, 191, 255);
-  color: black;
+  border: 2px solid rgba(224, 191, 255);
+  color: white;
   border-radius: 15px;
   padding: 20px;
 }
@@ -73,11 +83,11 @@
   column-gap: 50px;
 }
 .LinkedIn.desc:hover, .GitHub.desc:hover{
-  color: rgb(47, 0, 100);
+  color: rgb(78, 144, 184);
   text-decoration: underline;
 }
 .LinkedIn, .GitHub{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
