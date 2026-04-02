@@ -3,43 +3,92 @@
   <head>
     <title>MISHTHI GARG</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="general.css">
   </head>
   <body>
     <div class="header">
-      <div>
-        Experience
-      </div>
-      <div>
-        Accomplishments
-      </div>
-      <div>
-        Projects
-      </div>
+      <p class="header-element">Home</p>
+      <p class="header-element">Projects</p>
+      <p class="header-element">Experience</p>
+      <p class="header-element">Contact</p>
     </div>
-     <div class="personal-details">
-        <div class="pfp-container">
-         <img src="profile-pic.jpeg" class="main-pfp">
+    <div class="content">
+      <div class="home">
+        <div class="role">
+          <h1 class="role-name">Web Developer</h1>
         </div>
-        <div class="js-details-container"></div>
+        <div class="pics-n-about">
+          <div class="home-pic-container">
+            <div class="pic-div"><img src="home-pic.jpeg" class="home-pic pic1"></div>
+            <div class="pic-div"><img src="home-pic(1).jpeg" class="home-pic pic2"></div>
+            <div class="pic-div"><img src="home-pic(2).jpeg" class="home-pic pic3"></div>
+          </div>
+          <div class="brief">
+            <p>
+              Hi, I’m Mishthi! A front-end developer focused on building intuitive and user-friendly interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="socials">
+        <div class="social-div">
+          <a href="https://github.com/mishthi-garg" target="_blank">
+            <img class="social-icon git" src="git-logo.png">
+          </a>
+        </div>
+        <div class="social-div">
+          <a href="https://linkedin.com/in/mishthi-garg-" target="_blank">
+            <img class="social-icon linkedIn" src="linkedin-logo.png">
+          </a>
+        </div>
+        <div class="social-div">
+          <a href="https://instagram.com/garg_mishthi/" target="_blank">
+            <img class="social-icon insta" src="insta-logo.png">
+          </a>
+        </div>
+        <div class="social-div">
+          <a href="mailto:mishthigarg1306@gmail.com">
+            <img class="social-icon gmail" src="gmail-logo.png">
+          </a>
+        </div>
+      </div>
+      <div class="about">
+        <h2 class="section-heading">About Me</h2>
+        <p class="about-para">
+          I’m Mishthi, a second-year CCE student at LNMIIT who enjoys building clean and interactive web experiences. I have a strong foundation in software development, with experience as a Teaching Assistant and hands-on work in Linux, Python, and web technologies. I’m actively involved in GDG and the Alumni Association, and I’m always looking to learn, build, and grow toward SDE roles.
+        </p>
+      </div>
+      <div class="education">
         <div>
-          <button class="js-show-detail-btn" onclick="showDetails()"> > </button>
+          <h2 class="section-heading">Education</h2>
         </div>
-     </div>
-     <div class="add-ons">
-        <div class="js-about-me">
-          <button onclick="showContent('about')">ABOUT ME</button>
+        <div class="edu DPSG">
+          <div class="edu-info">
+            <h3>Delhi Public School Ghaziabad</h3>
+            <h5>APR 2010 - MAY 2024</h5>
+            <p>Class X (CBSE): 94%</p>
+            <p>Class XII (CBSE): 94.4%</p>
+          </div>
+          <div class="edu-pic-div">
+            <img class="edu-pic" src="dpsg.jpg">
+          </div>
+          
         </div>
-      <div class="js-education">
-        <button onclick="showContent('education')">EDUCATION</button>
+        <div class="edu LNMIIT">
+          <div class="edu-info">
+            <h3>The LNM Institute of Informaation Technology (LNMIIT), Jaipur</h3>
+            <h5>AUG 2024 - MAY 2028</h5>
+            <p>Currently pursuing B.Tech in Computer and Communication Engineering</p>
+          </div>
+          <div class="edu-pic-div">
+            <img class="edu-pic" src="lnmiit.jpg">
+          </div>
+        </div>
       </div>
-      <div class="js-skills">
-        <button onclick="showContent('skills')">SKILLS</button>
-      </div>
-     </div>
-     
-     <div class="js-content-area"></div>
-     
-    <script src="main.js"></script>
+
+      <div class="projects"></div>
+      <div class="skills"></div>
+      <div class="experience"></div>
+      <div class="contact"></div>
+    </div>
   </body>
 </html>

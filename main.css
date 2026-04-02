@@ -1,129 +1,125 @@
-.main-pfp{
-  width: 200px;
-  border-radius: 100px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
-  box-shadow: 6px 3px rgba(255, 255, 255, 0.5);
-  
-}
-
 .header{
   display: flex;
-  flex-direction: row;
-  column-gap: 30px;
-}
-.header div:hover{
-  cursor: pointer;
-  border-bottom: 2px solid rgba(224, 191, 255);
-}
-
-.personal-details{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  column-gap: 30px;
-  margin-bottom: 60px;
+  gap: 50px;
 }
-.js-show-detail-btn{
-  font-size: 24px;
-  font-weight: bold;
-  background-color: rgba(224, 191, 255);
-  color: black;
-  border: none;
-  border-radius: 30px;
-  height: 60px;
-  width: 60px;
-  cursor: pointer;
+.header-element{
+  font-size: 18px;
 }
-
-.heading{
-  font-weight: bold;
+.header-element:hover{
   font-size: 20px;
-}
-.desc{
-  font-size: 22px;
-  line-height: 2;
-  margin-bottom: 0;
-}
-
-.name{
+  cursor: pointer;
   font-weight: bold;
-  font-size: 46px;
-  margin: 0;
 }
 
-.section{
-  font-weight: bold;
-  font-size: 36px;
-}
-
-.personal-details{
+.education{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 30px;
-  margin-bottom: 60px;
+  gap: 40px;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 
-.js-details-container-show{
+.edu{
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: 2px solid rgb(230, 230, 230);
+  background-color: rgba(250, 250, 250, 0.75);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex: 1 1 300px;
+  min-width: 0;
+}
+.edu-pic{
+  width: 100%;
+  height: auto;
+}
+
+.edu-info{
+  font-size: large;
+}
+
+.section-heading{
+  padding: 5px 20px;
+  border-radius: 50px;
+  width: fit-content;
+  box-shadow: 5px 5px rgba(0,0,0,0.75);
+}
+.about-para{
+  font-size: clamp(12px, 2vw, 20px);
+}
+
+.pics-n-about{
   display: flex;
   flex-direction: column;
-  flex: 1;
-  border: 2px solid rgba(224, 191, 255);
-  color: white;
-  border-radius: 15px;
-  padding: 20px;
+  /* background-color: aqua; */
+}
+.brief{
+  font-size: clamp(12px, 2vw, 16px);
+  padding-right: 30px;
+  width: 40%;
+  margin-left: auto;
+}
+.brief p{
+  text-align: right;
 }
 
-.contact-info{
+.socials{
   display: flex;
-  flex-direction: row;
-  column-gap: 50px;
-}
-.LinkedIn.desc:hover, .GitHub.desc:hover{
-  color: rgb(78, 144, 184);
-  text-decoration: underline;
-}
-.LinkedIn, .GitHub{
-  color: white;
-  text-decoration: none;
-}
-
-.add-ons{
-  display: flex;
+  gap: 100px;
   justify-content: center;
-  column-gap: 70px;
+  padding: 30px;
 }
-.add-ons button{
-  font-weight: bold;
-  font-size: 36px;
-  padding: 30px 50px;
-  border-radius: 75px;
+.social-icon{
+  width: 100%;
+  height: 40px;
 }
-.add-ons button:hover{
-  background-color: rgba(224, 191, 255);
+.social-div{
+  border: 2px solid gray;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+.social-div:hover{
+  border: 5px solid black;
   cursor: pointer;
 }
-.edu{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  column-gap: 80px;
+.home{
+  display: grid;
+  grid-template-columns: 2fr 1.25fr;
 }
-.edu .heading{
-  color: rgb(255, 213, 60);
-}
-.edu .desc{
-  color: rgb(207, 207, 207);
+.home-pic{
+  width: 100%;
+  height: auto;
+  border: 0.25px solid black;
+  border-radius: 10px;
 }
 
-.js-content-area img{
-  height: 100px;
+.pic1{
+  margin-top: -10px;
 }
-.skill-logos{
-  display: flex;
-  flex-direction: row;
-  column-gap: 70px;
+.pic2{
+  margin-top: -180px;
+}
+.pic3{
+  margin-top: 130px;
+}
+.home-pic-container{
+  /* background-color: blueviolet; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  padding: 30px;
+  align-items: center;
+}
+.role-name{
+  font-size: clamp(40px, 10vw, 160px);
+  margin: 0;
+  padding: 30px;
+}
+.role{
+  padding-top: 100px;
+  /* background-color: chartreuse; */
+}
+body{
+  padding: 30px;
 }
