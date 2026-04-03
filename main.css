@@ -5,11 +5,92 @@
 }
 .header-element{
   font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
 .header-element:hover{
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.exp-div {
+  position: relative;
+}
+
+.exp-div::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 30px;
+  width: 12px;
+  height: 12px;
+  background-color: #111;
+  border-radius: 50%;
+}
+
+.experience p{
+  font-size: 20px;
+}
+.exp-desc{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.project-name {
+  font-size: clamp(18px, 2.2vw, 32px);
+  font-weight: 600;
+}
+.project-desc, .tech-stack{
+ font-size: clamp(12px, 2.2vw, 24px);
+ font-style: italic;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.project-img{
+  width: 100%;
+  height: auto;
+}
+.thumbnail{
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.497);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thumbnail:hover{
+  cursor: pointer;
+  height: auto;
+  border: 2px solid black;
+}
+.proj-div{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+}
+.exp-project{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
 }
 
 .education{
@@ -33,6 +114,8 @@
 .edu-pic{
   width: 100%;
   height: auto;
+  border: 0.25px solid black;
+  border-radius: 10px;
 }
 
 .edu-info{
@@ -122,4 +205,27 @@
 }
 body{
   padding: 30px;
+}
+.contact {
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: -40px;
+  margin-top: 40px;
+  padding: 30px 80px; /* optional internal spacing */
+  color: white;
+  background-color: black;
+}
+.contact-details{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-div p{
+  font-size: 20px;
+  color: #c5c5c5;
+}
+.contact-div h3{
+  font-size: 26px;
+}
+.contact h1{
+  font-size: 50px;
 }

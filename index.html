@@ -6,13 +6,13 @@
   </head>
   <body>
     <div class="header">
-      <p class="header-element">Home</p>
-      <p class="header-element">Projects</p>
-      <p class="header-element">Experience</p>
-      <p class="header-element">Contact</p>
+      <a href="#home" class="header-element">Home</a>
+      <a href="#projects" class="header-element">Projects</a>
+      <a href="#experience" class="header-element">Experience</a>
+      <a href="#contact" class="header-element">Contact</a>
     </div>
     <div class="content">
-      <div class="home">
+      <div class="home" id="home">
         <div class="role">
           <h1 class="role-name">Web Developer</h1>
         </div>
@@ -51,7 +51,7 @@
           </a>
         </div>
       </div>
-      <div class="about">
+      <div class="about" id="about">
         <h2 class="section-heading">About Me</h2>
         <p class="about-para">
           I’m Mishthi, a second-year CCE student at LNMIIT who enjoys building clean and interactive web experiences. I have a strong foundation in software development, with experience as a Teaching Assistant and hands-on work in Linux, Python, and web technologies. I’m actively involved in GDG and the Alumni Association, and I’m always looking to learn, build, and grow toward SDE roles.
@@ -85,10 +85,107 @@
         </div>
       </div>
 
-      <div class="projects"></div>
-      <div class="skills"></div>
-      <div class="experience"></div>
-      <div class="contact"></div>
+      <div class="projects" id="projects">
+        <div>
+          <h2 class="section-heading">Projects</h2>
+        </div>
+        <div class="yt-project proj-div">
+          <div class="thumbnail">
+            <a href="https://mishthi-garg.github.io/youtube-clone/" target="_blank">
+             <img src="yt-project.png" class="project-img">
+            </a>
+          </div>
+          <div class="proj-info">
+            <h2 class="project-name">YouTube Clone</h2>
+            <p class="project-desc">
+              A responsive YouTube UI clone with video grid, sidebar, and search layout.
+            </p>
+            <p class="tech-stack">HTML, CSS</p>
+          </div>
+        </div>
+        <div class="exp-project proj-div">
+          <div class="proj-info">
+            <h2 class="project-name">Expense Manager</h2>
+            <p class="project-desc">
+              A fully functional expense manager built with JavaScript that enables users to add, edit, and filter transactions, track income vs expenses, and visualize spending through dynamic charts. Uses localStorage for data persistence and features a responsive UI.
+            </p>
+            <p class="tech-stack">
+              HTML, CSS, JavaScript, Chart.js, LocalStorage
+            </p>
+          </div>
+          <div class="thumbnail">
+            <a href="https://mishthi-garg.github.io/expense-tracker/" target="_blank">
+              <img src="exp-project.png" class="project-img">
+            </a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience" id="experience">
+        <h2 class="section-heading">Experience</h2>
+        <div class="exp-desc timeline">
+          <div class="exp-div">
+            <h2>
+              Teaching Assistant | Introduction to Scripting Languages (ISL) LNMIIT | [Jan 2026 - May 2026]
+            </h2>
+            <h3>
+              Linux Systems:
+            </h3>
+            <p>Mentored students on Linux configuration, file management, process management, and remote login tools.</p>
+
+            <h3>Shell Programming:</h3>
+            <p>Guided hands-on sessions for shell scripting including variables, loops, and functions.</p>
+
+            <h3>Python Development:</h3>
+            <p>Instructed on Python syntax, data types (Lists, Tuples, Dictionaries), and file handling.</p>
+
+            <h3>Data Science Stack:</h3>
+            <p>
+               Facilitated labs on NumPy for matrices, Pandas for data normalization, and Matplotlib for data visualization.
+            </p>
+
+            <h3>Machine Learning: </h3>
+            <p>Supported student learning of Scikit-Learn for Linear Regression, Decision Trees, and K-means clustering.</p>
+          </div>
+          <div class="exp-div">
+            <h2>Member | GDG On Campus & LNMIIT Alumni Association</h2>
+            <p>Collaborated on student-led initiatives to improve university-alumni engagement and technical community building.</p>
+            <p>Developed strong coordination and communication skills through team-based event execution.</p>
+          </div>
+          <div class="exp-div">
+            <h2>Organizing Committee Member | Plinth (Tech-fest)</h2>
+            <p>Contributed to the 'Entrepreneuria' team, hosting flagship events like "Pitch on the Rocks".</p>
+            <p>Coordinated with a panel of esteemed investors and innovative startups to foster an entrepreneurial spirit on campus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div contact-head>
+          <h1>Let's Connect!</h1>
+        </div>
+        <div class="contact-details">
+          <div class="contact-div">
+            <h3>
+              Address
+            </h3>
+            <p>The LNM Institute of Information Technology, Jaipur</p>
+          </div>
+          <div class="contact-div">
+            <h3>
+              Email
+            </h3>
+            <p>mishthigarg1306@gmail.com</p>
+          </div>
+          <div class="contact-div">
+            <h3>
+              Phone number
+            </h3>
+            <p>8800467487</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
