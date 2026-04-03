@@ -1,13 +1,25 @@
 .download-button{
   background-color:  rgb(55, 31, 0);
   color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 50px;
-  font-size: clamp(18px, 2.2vw, 18px);
+  font-size: clamp(5px, 2.2vw, 15px);
 }
 .download-button:hover{
   cursor: pointer;
-  border: 5px solid black;
+  background-color: transparent;
+  border: 2px solid rgb(55, 31, 0);
+  color: rgb(55, 31, 0);
+}
+.download-box{
+  position: absolute;
+  top: -18px;
+  right: 0;
+}
+.header-box{
+  position: relative;
+  margin-bottom: 80px;
+  /* background-color: aquamarine; */
 }
 
 .header{
