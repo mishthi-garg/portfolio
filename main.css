@@ -161,6 +161,7 @@
   border: 2px solid gray;
   padding: 5px 20px;
   border-radius: 50px;
+  background-color: white;
 }
 .social-div:hover{
   border: 5px solid black;
@@ -198,6 +199,7 @@
   font-size: clamp(40px, 10vw, 160px);
   margin: 0;
   padding: 30px;
+  font-family: "Dancing Script", cursive;
 }
 .role{
   padding-top: 100px;
@@ -205,6 +207,9 @@
 }
 body{
   padding: 30px;
+  background-color: rgb(255, 247, 235);
+  /* color: rgb(55, 31, 0); */
+   color: rgb(85, 49, 3);
 }
 .contact {
   margin-left: -40px;
@@ -213,7 +218,7 @@ body{
   margin-top: 40px;
   padding: 30px 80px; /* optional internal spacing */
   color: white;
-  background-color: black;
+  background-color: rgb(55, 31, 0);
 }
 .contact-details{
   display: flex;
