@@ -13,19 +13,25 @@
 }
 .download-box{
   position: absolute;
-  top: -18px;
+  top: 15px;
   right: 0;
 }
 .header-box{
-  position: relative;
-  margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
   /* background-color: aquamarine; */
+  background-color: rgb(255, 247, 235);
+  border-bottom: 1px solid rgba(55, 31, 1, 0.2);
 }
 
 .header{
   display: flex;
   justify-content: center;
   gap: 50px;
+  /* background-color: red; */
 }
 .header-element{
   font-size: 18px;
@@ -231,6 +237,7 @@
 }
 body{
   padding: 30px;
+  padding-top: 0;
   background-color: rgb(255, 247, 235);
   /* color: rgb(55, 31, 0); */
    color: rgb(85, 49, 3);
