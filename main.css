@@ -17,6 +17,7 @@
   right: 0;
 }
 .header-box{
+  z-index: 100;
   position: sticky;
   top: 0;
   padding-top: 30px;
@@ -105,7 +106,23 @@
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.497);
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
+
+.thumbnail::after {
+  content: 'View Project ↗';
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(250, 250, 250, 0.75);
+  color: black;
+  padding: 5px 12px;
+  font-size: clamp(12px, 2.2vw, 16px);
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 
 .thumbnail:hover{
   cursor: pointer;
@@ -241,6 +258,9 @@ body{
   background-color: rgb(255, 247, 235);
   /* color: rgb(55, 31, 0); */
    color: rgb(85, 49, 3);
+}
+.content{
+  padding: 28px;
 }
 .contact {
   margin-left: -40px;
